@@ -7,6 +7,29 @@
   min-height: 100vh;
 }
 
+.headerStyle {
+  box-shadow: 0 0 10px#A4ACB8ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navBar {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 0 10px;
+}
+.navBarLink {
+  padding: 20px;
+}
+
+.navBarLink:hover {
+  border-radius: 150%;
+  box-shadow: 0 0 10px#A4ACB8ff;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -97,7 +120,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +148,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
