@@ -1,5 +1,5 @@
 import "./globals.css";
-import NavBar from "./navigation";
+import Header from "./header";
 
 export const metadata = {
   title: "Portfolio By Sheila",
@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <NavBar />
+        <Header />
         {children}
       </body>
     </html>
