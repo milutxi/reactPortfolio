@@ -1,7 +1,9 @@
+import styles from "./contact.module.css";
+
 export default () => {
   return (
     <div>
-      <h1>Contact me</h1>
+      <h1 className={styles.headingTitle}>Contact me</h1>
       
     </div>
   );
