@@ -1,7 +1,8 @@
 export default () => {
   return (
     <div>
-      <h1>CONTACT ME</h1>
+      <h1>Contact me</h1>
+      
     </div>
   );
 };

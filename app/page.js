@@ -13,9 +13,9 @@ const cantarell = Cantarell({
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div>
+      <div className={styles.wrap}>
         <h1 className={cantarell.className}>Sheila Aliaga</h1>
-        <h2>WEB DEVELOPER</h2>
+        <h2 className={styles.developer}>WEB DEVELOPER</h2>
       </div>
     </main>
   );

@@ -10,8 +10,9 @@ import HarryPotter from "../../public/HarryPotterApi.jpg";
 export default () => {
   return (
     <div>
-      <h1 className={styles.headingTitle}>PORTFOLIO</h1>
-      <article>
+      <h1 className={styles.headingTitle}>Portfolio</h1>
+      <div className={styles.wrap1}>
+        <article className={styles.container}>
         <h2> Assigment 1: Introduce to myself and my future project</h2>
         <Image
           className={styles.image1}
@@ -19,7 +20,7 @@ export default () => {
           alt="Bilder from my first assigment showing who I am."
         />
       </article>
-      <article>
+      <article className={styles.container} >
         <h2> Assigment 2: Introduce to Dates, Node and more</h2>
         <Image
           className={styles.image1}
@@ -27,7 +28,9 @@ export default () => {
           alt="Bilder from my second assigment about Dates, Node and some other things."
         />
       </article>
-      <article>
+    </div>
+    <div className={styles.wrap2}>
+      <article className={styles.container}>
         <h2> Assigment 3: Coundown to Summer</h2>
         <Image
           className={styles.image1}
@@ -35,14 +38,15 @@ export default () => {
           alt="Bilder from my third assigment, the coundown to summer."
         />
       </article>
-      <article>
+      <article className={styles.container}>
         <h2> Assigment 4: Api</h2>
         <Image
           className={styles.image1}
           src={HarryPotter}
           alt="Bilder from my fourth assigment en Api about Harry Potter."
         />
-      </article>
+      </article> 
+      </div>
     </div>
   );
 };

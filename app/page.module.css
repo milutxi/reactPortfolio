@@ -1,9 +1,8 @@
-.main {
+.wrap{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
 }
 
@@ -28,4 +27,8 @@
 .navBarLink:hover {
   border-radius: 150%;
   box-shadow: 0 0 10px#A4ACB8ff;
+}
+
+.developer {
+  color: rgb(44, 11, 144);
 }
