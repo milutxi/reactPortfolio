@@ -1,0 +1,50 @@
+  .headingTitle {
+    color: rgb(44, 11, 144);
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .aboutLeft {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    width: 45%;
+    }
+  
+  .aboutRight {
+    text-align: justify;
+    width: 45%;
+  }
+  
+  .article {
+    padding: 12px 32px 32px;
+  }
+        
+  .articleTitle {
+    text-align: center;
+  } 
+  
+  .myimage {
+    height: auto;
+    width: 300px;
+  }
+
+  .image2 {
+    height: auto;
+    width: 100px;
+  }
+  .image3 {
+    height: auto;
+    width: 50px;
+  }
+
+  
