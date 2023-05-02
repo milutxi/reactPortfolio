@@ -19,9 +19,6 @@ export default function Header() {
           <Link href="/about" className={styles["navBarLink"]}>
             ABOUT
           </Link>
-          <Link href="/contact" className={styles["navBarLink"]}>
-            CONTACT
-          </Link>
         </nav>
       </header>
     </>

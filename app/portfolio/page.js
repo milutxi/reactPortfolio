@@ -19,6 +19,7 @@ export default () => {
           src={introToReact}
           alt="Bilder from my first assigment showing who I am."
         />
+       <a href="https://projekt1-react.vercel.app">Click here</a>
       </article>
       <article className={styles.container} >
         <h2> Assigment 2: Introduce to Dates, Node and more</h2>
@@ -27,6 +28,7 @@ export default () => {
           src={DatesAndMore}
           alt="Bilder from my second assigment about Dates, Node and some other things."
         />
+        <a href=" https://milutxi.github.io/reactproject2/">Click here</a>
       </article>
     </div>
     <div className={styles.wrap2}>
@@ -37,14 +39,19 @@ export default () => {
           src={ToSummer}
           alt="Bilder from my third assigment, the coundown to summer."
         />
+        <a href="https://reactprojekt3-p5dh-dbdo6zo6j-milutxi.vercel.app">Click here</a>
       </article>
       <article className={styles.container}>
         <h2> Assigment 4: Api</h2>
+        <h3>Github:https://github.com/milutxi/reactAssigment4.git</h3>
+        <a href="https://react-assigment4.vercel.app">
         <Image
           className={styles.image1}
           src={HarryPotter}
           alt="Bilder from my fourth assigment en Api about Harry Potter."
         />
+        </a>
+        
       </article> 
       </div>
     </div>
