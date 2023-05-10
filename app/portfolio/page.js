@@ -43,15 +43,12 @@ export default () => {
       </article>
       <article className={styles.container}>
         <h2> Assigment 4: Api</h2>
-        <h3>Github:https://github.com/milutxi/reactAssigment4.git</h3>
-        <a href="https://react-assigment4.vercel.app">
         <Image
           className={styles.image1}
           src={HarryPotter}
           alt="Bilder from my fourth assigment en Api about Harry Potter."
         />
-        </a>
-        
+       <a href="https://react-assigment4.vercel.app">Click here</a>
       </article> 
       </div>
     </div>
