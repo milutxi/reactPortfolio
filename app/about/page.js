@@ -8,7 +8,7 @@ import javascriptLogo from "../../public/javascriptLogo.png";
 import figmaLogo from "../../public/figmaLogo.png";
 import trello from "../../public/trelloLogo.png";
 
-export default () => {
+ const About = () => {
   return (
     
     <div>
@@ -69,7 +69,7 @@ export default () => {
                             <p>I am currently studing frontend and app developer in Changemaker Educations in Stockholm, 
                             I will be graduated in June 2024.<br></br>
                             I do work as a nurse-assistant in Karolinska Hospital for the last 6 years.
-                            Before than that I dedicated my time between children and to run my own company "AleSoft" with my partner.
+                            Before than that I dedicated my time between children and to run my own company AleSoft with my partner.
                             Where we offered IT consulting services to other companies and developed small solutions, 
                             helping to design and test user interface.
                             </p>
@@ -91,3 +91,5 @@ export default () => {
     
   );
 };
+
+export default About

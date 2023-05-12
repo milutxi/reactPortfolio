@@ -7,7 +7,7 @@ import DatesAndMore from "../../public/DatesAndMore.jpg";
 import ToSummer from "../../public/ToSummer.jpg";
 import HarryPotter from "../../public/HarryPotterApi.jpg";
 
-export default () => {
+const Portfolio = () => {
   return (
     <div>
       <h1 className={styles.headingTitle}>Portfolio</h1>
@@ -54,3 +54,5 @@ export default () => {
     </div>
   );
 };
+
+export default Portfolio
