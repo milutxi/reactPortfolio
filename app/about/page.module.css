@@ -1,7 +1,7 @@
   .headingTitle {
     color: rgb(44, 11, 144);
-    text-align: center;
     padding: 50px;
+    text-align: center;
   }
   
   .container {
@@ -14,9 +14,9 @@
   
   .aboutLeft {
     display: flex;
-    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     padding-top: 24px;
     width: 45%;
     }
