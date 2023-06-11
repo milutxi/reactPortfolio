@@ -1,14 +1,9 @@
-import { Cantarell, Inter, Montserrat } from "next/font/google";
+import { Cantarell } from "next/font/google";
 import styles from "./page.module.css";
 
-//import Link from "next/link";
-
-const inter = Inter({ subsets: ["latin"] });
 const cantarell = Cantarell({ 
   weight: '700',
   subsets: ["latin"] });
-
-
 
 export default function Home() {
   return (
