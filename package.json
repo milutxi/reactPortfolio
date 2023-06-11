@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "p": "npx prettier --check ."
+    "p": "npx prettier ."
   },
   "dependencies": {
     "eslint": "8.35.0",
